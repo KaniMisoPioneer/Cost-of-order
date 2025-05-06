@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Оформление заказа</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="order-container">
+        <h2>Выберите товары:</h2>
+        <form method="POST" action="/calculate">
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="bread" value="1">
+                    Хлеб (40 руб./шт.)
+                </label>
+                <input type="number" name="bread_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="flour" value="1">
+                    Мука (100 руб./шт.)
+                </label>
+                <input type="number" name="flour_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="milk" value="1">
+                    Молоко (120 руб./шт.)
+                </label>
+                <input type="number" name="milk_qty" min="0" value="0">
+            </div>
+            
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="cheese" value="1">
+                    Сыр (160 руб./шт.)
+                </label>
+                <input type="number" name="cheese_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="sausage" value="1">
+                    Колбаса (300 руб./кг.)
+                </label>
+                <input type="number" name="sausage_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="fish" value="1">
+                    Рыба (500 руб./кг.)
+                </label>
+                <input type="number" name="fish_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="apple" value="1">
+                    Яблоки (180 руб./кг.)
+                </label>
+                <input type="number" name="apple_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="banana" value="1">
+                    Бананы (250 руб./кг.)
+                </label>
+                <input type="number" name="banana_qty" min="0" value="0">
+            </div>
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="potato" value="1">
+                    Картошка (100 руб./кг.)
+                </label>
+                <input type="number" name="potato_qty" min="0" value="0">
+            </div>
+
+
+            <div class="product-item">
+                <label>
+                    <input type="checkbox" name="carrot" value="1">
+                    Морковь (200 руб./кг.)
+                </label>
+                <input type="number" name="carrot_qty" min="0" value="0">
+            </div>
+
+            <input type="submit" value="Рассчитать">
+        </form>
+    </div>
+</body>
+</html>
