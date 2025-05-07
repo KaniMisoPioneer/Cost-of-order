@@ -4,8 +4,8 @@
 #define DIR_TEMPLATES   "./templates/"
 #define DIR_CSS         "./css/"
 // Пути к HTML-шаблонам
-#define ORDER_FORM_HTML     DIR_TEMPLATES "order_form.html"
-#define ORDER_RESULT_HTML   DIR_TEMPLATES "order_result.html"
+#define PATH_ORDER_FORM_HTML     DIR_TEMPLATES "order_form.html"
+#define PATH_ORDER_RESULT_HTML   DIR_TEMPLATES "order_result.html"
 // Путь к CSS
 #define PATH_CSS_STYLES     DIR_CSS "styles.css"
 // Content-Type заголовки
