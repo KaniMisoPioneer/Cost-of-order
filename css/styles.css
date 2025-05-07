@@ -29,3 +29,46 @@
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+.order-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.order-message {
+    background-color: white;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.order-message h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.total-price {
+    font-size: 2rem;
+    color: #27ae60;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.return-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.return-link:hover {
+    background-color: #2980b9;
+}
