@@ -1,4 +1,4 @@
-#include "../mongoose/mongoose.h"
+#include "mongoose/mongoose.h"
 #include "input/input.h"
 #include "constants/constants.h"
 #include <stdlib.h>
